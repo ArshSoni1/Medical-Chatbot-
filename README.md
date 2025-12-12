@@ -1,19 +1,20 @@
-#Medical Chatbot
-This repository contains a medical chatbot built using Retrieval-Augmented Generation (RAG) to provide safer and more context-aware responses for health-related queries. The project follows the architecture demonstrated in the referenced YouTube tutorial, adapting it into a customizable codebase suitable for local experimentation and learning.​
+**Medical Chatbot**
 
-#Features
-Answers medical questions using a combination of a language model and document retrieval for domain-specific context.​
+This repository hosts a medical chatbot built with Retrieval-Augmented Generation (RAG) to deliver accurate and context-aware responses to health-related queries. The system leverages a combination of advanced language models and medical document retrieval, making it suitable for research, education, and local experimentation in the healthcare domain.​
 
-Uses vector embeddings and a vector database to search relevant medical content before generating responses.​
+**Features**
+Provides medical information by retrieving relevant documents and generating context-specific answers.​
 
-Simple web UI for interactive chat, inspired by the tutorial’s Streamlit-based interface.​
+Utilizes vector embeddings and a vector database (such as FAISS or Qdrant) to efficiently search for and retrieve medical content before generating responses.​
 
-#Tech stack
-RAG pipeline with an open-source LLM specialized for medical or general QA tasks.​
+Features a simple web-based user interface for interactive chat, allowing users to ask health questions and receive informative answers.​
 
-Embedding model plus a vector store (such as FAISS or Qdrant) for efficient similarity search.​
+**Tech Stack**
+RAG pipeline powered by an open-source large language model (LLM) tailored for medical or general question-answering tasks.​
 
-Python for backend logic and a lightweight web framework for the frontend chat interface.​​
+Embedding models and vector databases for robust semantic search and retrieval of medical texts.​
 
-#Disclaimer
-This chatbot is for educational and experimental purposes only and must not be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider for medical decisions.
+Python-based backend logic with a lightweight web framework (such as Streamlit) for the frontend chat interface.​
+
+**Disclaimer**
+This chatbot is intended for educational and experimental purposes only. It should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider for any medical concerns.
